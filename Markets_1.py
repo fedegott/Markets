@@ -51,7 +51,7 @@ for currency in currencies:
 df= df.set_index('DATE') ### reindex to use column DATE as the new index. using df.reindex created a new empty dataframe except with the correct index
 
 
-# for currency,i in zip(currencies,range(len(currencies))): # to loop across 2 different indices or more, use for x,y,z in zip(a,b,c)
+# for currency,i in zip(currencies,range(len(currencies))): # to loop across 2 different indices or more, use for x,y,z in zip(a,b,c) 
 
 
 
